@@ -26,6 +26,8 @@ Z - the last digit of your faculty number;
 * To start the Docker compose run: 
 
 command for docker:
+
+
 command for script: 
 
 sudo -s
