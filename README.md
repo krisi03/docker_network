@@ -1,6 +1,6 @@
 # docker_network
 
-=======================================Task========================================
+=============================Task===============================
 
 - Install docker and get familiar with docker-curriculum: https://docker-curriculum.com/
 - Get to know docker compose and the ability to compose your own stack of applications in containers 
@@ -19,7 +19,7 @@ Z - the last digit of your faculty number;
 + floodlight
 + mininet python script
 
-================================== Demonstartion ======================================
+=========================== Demonstartion ===============================
 - Demonstrate how you configure two-way traffic rules between the two farthest hosts of your network with a script to the floodlight API.
 - Demonstrate that your script works by ping between the two hosts for which you created the rules.
 
@@ -34,7 +34,7 @@ cd /home/kristiyana/Mininet_project/docker_network
 
 mn --custom MininetScript.py --topo mytopo --test pingall
 
-======================================= END ============================================
+========================= END =================================
 
 *The project has been properеd for New Bulgarian University, course: "Introduction to Network Engineering – part II", teacher: Nikolay Milovanov, student : Kristiyana Stoyanova.
 
