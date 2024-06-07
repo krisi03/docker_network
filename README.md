@@ -27,8 +27,11 @@ Z - the last digit of your faculty number;
 
 command for docker:
 command for script: 
+
 sudo -s
+
 cd /home/kristiyana/Mininet_project/docker_network
+
 mn --custom MininetScript.py --topo mytopo --test pingall
 
 ======================================= END ============================================
