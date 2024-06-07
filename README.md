@@ -5,18 +5,27 @@
 - Install docker and get familiar with docker-curriculum: https://docker-curriculum.com/
 - Get to know docker compose and the ability to compose your own stack of applications in containers 
 - Read more about:
+  
 	mininet: https://mininet.org/
+
         SDN controller floodlight: https://github.com/floodlight/floodlight
 
 - Write an example mininet python script that creates a network with a topology from <XYZ> the switch and <YX> host connected in a topology of your choice.
+
 X - the penultimate digit of your faculty number;
+
 Y - the first digit of your faculty number;
+
 Z - the last digit of your faculty number;
+
 *In our scenario 519 switches and 15 host 
 
-- Create your own docker-compose setup into the GitHub repo, which should contains: 
+- Create your own docker-compose setup into the GitHub repo, which should contains:
+  
 + mininet
+  
 + floodlight
+
 + mininet python script
 
 =========================== Demonstartion ===============================
