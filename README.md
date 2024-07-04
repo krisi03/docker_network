@@ -34,16 +34,35 @@ Z - the last digit of your faculty number;
 
 * To start the Docker compose run: 
 
+
 command for docker:
 
+sudo apt-get update
+sudo apt install docker.io
+sudo docker run hello-world //to confirm that the docker is working
+sudo docker images //list all of the available docker images 
+sudo docker ps -a //lists all of the available running images 
 
-command for script: 
 
-sudo -s
+From docker hub we need to select one of the floodlight images 
+https://hub.docker.com/search
 
-cd /home/kristiyana/Mininet_project/docker_network
+-depending of the usage you can select one, in my project I have selected latarc/floodlight
 
-mn --custom MininetScript.py --topo mytopo --test pingall
+docker pull latarc/floodlight
+sudo docker images
+
+docker run -d -p 6653:6653 -p 8080:8080 --name=floodlight latarc/floodlight
+docker start floodlight 
+sudo docker ps -a
+
+lsb_release -a  //to check the operation system version 
+
+sudo apt-get install mininet
+
+mn -- custom MininetScript.py --topo mytopo --conroller=remote
+exit
+docker stop floodlight 
 
 ========================= END =================================
 
